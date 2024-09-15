@@ -1,0 +1,5 @@
+# vsim +define+UVM_NO_DPI -do {run -all} -l mem_log.txt -c {.\top.sv} 
+# ** Error: (vsim-19) Failed to access library '' at "".
+# 
+# Invalid argument. (errno = EINVAL)
+# Error loading design

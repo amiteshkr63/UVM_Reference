@@ -1,0 +1,78 @@
+# vsim +define+UVM_NO_DPI +packets=10 -do {run -all} -l memory.log -voptargs=+acc -c work.memory_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# //  Questa Sim
+# //  Version 10.1d win32 Nov  1 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.uvm_pkg(fast)
+# Loading work.memory_pkg(fast)
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# 
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# 
+# different random seeds from your non-debug simulations.
+# 
+# Loading work.memory_tb(fast)
+# Loading work.memory_interface(fast)
+# Loading work.memory(fast)
+# run -all 
+# ----------------------------------------------------------------
+# UVM-1.1c
+# (C) 2007-2012 Mentor Graphics Corporation
+# (C) 2007-2012 Cadence Design Systems, Inc.
+# (C) 2006-2012 Synopsys, Inc.
+# (C) 2011-2012 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO @ 0: reporter [RNTST] Running test memory_test...
+# UVM_INFO memory_scoreboard.sv(35) @ 35: uvm_test_top.m_memory_environment.m_memory_scoreboard [memory_scoreboard] Valid Write done at 7, Data = 43873
+# UVM_INFO memory_scoreboard.sv(43) @ 85: uvm_test_top.m_memory_environment.m_memory_scoreboard [memory_scoreboard] Output matches correctly
+# UVM_INFO memory_scoreboard.sv(44) @ 85: uvm_test_top.m_memory_environment.m_memory_scoreboard [memory_scoreboard] Valid Read at 245, Data = 22136
+# UVM_INFO memory_scoreboard.sv(35) @ 95: uvm_test_top.m_memory_environment.m_memory_scoreboard [memory_scoreboard] Valid Write done at 130, Data = 42341
+# UVM_INFO memory_scoreboard.sv(35) @ 205: uvm_test_top.m_memory_environment.m_memory_scoreboard [memory_scoreboard] Valid Write done at 84, Data = 55500
+# UVM_INFO memory_scoreboard.sv(35) @ 255: uvm_test_top.m_memory_environment.m_memory_scoreboard [memory_scoreboard] Valid Write done at 15, Data = 45240
+# UVM_INFO memory_scoreboard.sv(35) @ 325: uvm_test_top.m_memory_environment.m_memory_scoreboard [memory_scoreboard] Valid Write done at 141, Data = 60089
+# UVM_INFO memory_scoreboard.sv(35) @ 405: uvm_test_top.m_memory_environment.m_memory_scoreboard [memory_scoreboard] Valid Write done at 234, Data = 5881
+# UVM_INFO memory_scoreboard.sv(43) @ 445: uvm_test_top.m_memory_environment.m_memory_scoreboard [memory_scoreboard] Output matches correctly
+# UVM_INFO memory_scoreboard.sv(44) @ 445: uvm_test_top.m_memory_environment.m_memory_scoreboard [memory_scoreboard] Valid Read at 116, Data = 22136
+# UVM_INFO memory_scoreboard.sv(43) @ 475: uvm_test_top.m_memory_environment.m_memory_scoreboard [memory_scoreboard] Output matches correctly
+# UVM_INFO memory_scoreboard.sv(44) @ 475: uvm_test_top.m_memory_environment.m_memory_scoreboard [memory_scoreboard] Valid Read at 151, Data = 22136
+# UVM_INFO memory_scoreboard.sv(35) @ 505: uvm_test_top.m_memory_environment.m_memory_scoreboard [memory_scoreboard] Valid Write done at 74, Data = 16993
+# UVM_INFO C:/questasim_10.1d/verilog_src/uvm-1.1c/src/base/uvm_objection.svh(1121) @ 605: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO memory_scoreboard.sv(54) @ 605: uvm_test_top.m_memory_environment.m_memory_scoreboard [memory_scoreboard] 10 Packets recieved
+# UVM_INFO memory_scoreboard.sv(55) @ 605: uvm_test_top.m_memory_environment.m_memory_scoreboard [memory_scoreboard] 10 Packets matched correctly
+# UVM_INFO memory_scoreboard.sv(56) @ 605: uvm_test_top.m_memory_environment.m_memory_scoreboard [memory_scoreboard] 0 Packets matched incorrectly
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   18
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [TEST_DONE]     1
+# [memory_scoreboard]    16
+# ** Note: $finish    : C:/questasim_10.1d/verilog_src/uvm-1.1c/src/base/uvm_root.svh(427)
+#    Time: 605 ns  Iteration: 52  Instance: /memory_tb

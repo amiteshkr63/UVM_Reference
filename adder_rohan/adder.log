@@ -1,0 +1,213 @@
+# vsim +define+UVM_NO_DPI +packets=100 +UVM_VERBOSITY=UVM_HIGH -do {run 100} -l adder.log -c work.top 
+# //  Questa Sim
+# //  Version 10.1d win32 Nov  1 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.uvm_pkg(fast)
+# Loading work.adder_pkg(fast)
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# 
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# 
+# different random seeds from your non-debug simulations.
+# 
+# Loading work.top(fast)
+# Loading work.dut_intf(fast)
+# Loading work.dut(fast)
+# run 100 
+# ----------------------------------------------------------------
+# UVM-1.1c
+# (C) 2007-2012 Mentor Graphics Corporation
+# (C) 2007-2012 Cadence Design Systems, Inc.
+# (C) 2006-2012 Synopsys, Inc.
+# (C) 2011-2012 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO @ 0: reporter [RNTST] Running test test...
+# UVM_INFO scoreboard.sv(54) @ 65: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Output matches correctly
+# UVM_INFO scoreboard.sv(55) @ 65: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Input1 : 2, Input2 : 1, Recieved Output : 3
+# UVM_INFO scoreboard.sv(54) @ 165: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Output matches correctly
+# UVM_INFO scoreboard.sv(55) @ 165: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Input1 : 1, Input2 : 3, Recieved Output : 4
+# UVM_INFO scoreboard.sv(54) @ 265: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Output matches correctly
+# UVM_INFO scoreboard.sv(55) @ 265: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Input1 : 2, Input2 : 3, Recieved Output : 5
+# UVM_INFO scoreboard.sv(54) @ 365: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Output matches correctly
+# UVM_INFO scoreboard.sv(55) @ 365: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Input1 : 2, Input2 : 3, Recieved Output : 5
+# UVM_INFO scoreboard.sv(54) @ 465: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Output matches correctly
+# UVM_INFO scoreboard.sv(55) @ 465: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Input1 : 2, Input2 : 3, Recieved Output : 5
+# UVM_INFO C:/questasim_10.1d/verilog_src/uvm-1.1c/src/base/uvm_objection.svh(1121) @ 505: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   12
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [Scoreboard]    10
+# [TEST_DONE]     1
+# ** Note: $finish    : C:/questasim_10.1d/verilog_src/uvm-1.1c/src/base/uvm_root.svh(427)
+#    Time: 505 ns  Iteration: 63  Instance: /top
+# vsim +define+UVM_NO_DPI +packets=100 +UVM_VERBOSITY=UVM_HIGH -do {run 100} -l adder.log -c work.top 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# //  Questa Sim
+# //  Version 10.1d win32 Nov  1 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.uvm_pkg(fast)
+# Loading work.adder_pkg(fast)
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# 
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# 
+# different random seeds from your non-debug simulations.
+# 
+# Loading work.top(fast)
+# Loading work.dut_intf(fast)
+# Loading work.dut(fast)
+# run 100 
+# ----------------------------------------------------------------
+# UVM-1.1c
+# (C) 2007-2012 Mentor Graphics Corporation
+# (C) 2007-2012 Cadence Design Systems, Inc.
+# (C) 2006-2012 Synopsys, Inc.
+# (C) 2011-2012 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO @ 0: reporter [RNTST] Running test test...
+# UVM_INFO scoreboard.sv(54) @ 65: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Output matches correctly
+# UVM_INFO scoreboard.sv(55) @ 65: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Input1 : 2, Input2 : 1, Recieved Output : 3
+# UVM_INFO scoreboard.sv(54) @ 165: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Output matches correctly
+# UVM_INFO scoreboard.sv(55) @ 165: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Input1 : 1, Input2 : 3, Recieved Output : 4
+# UVM_INFO scoreboard.sv(54) @ 265: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Output matches correctly
+# UVM_INFO scoreboard.sv(55) @ 265: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Input1 : 2, Input2 : 3, Recieved Output : 5
+# UVM_INFO scoreboard.sv(54) @ 365: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Output matches correctly
+# UVM_INFO scoreboard.sv(55) @ 365: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Input1 : 2, Input2 : 3, Recieved Output : 5
+# UVM_INFO scoreboard.sv(54) @ 465: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Output matches correctly
+# UVM_INFO scoreboard.sv(55) @ 465: uvm_test_top.adder_env.adder_scoreboard [Scoreboard] Input1 : 2, Input2 : 3, Recieved Output : 5
+# UVM_INFO C:/questasim_10.1d/verilog_src/uvm-1.1c/src/base/uvm_objection.svh(1121) @ 505: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO monitor.sv(49) @ 505: uvm_test_top.adder_env.adder_agent.adder_monitor [monitor] 5 Packets recieved
+# UVM_INFO scoreboard.sv(67) @ 505: uvm_test_top.adder_env.adder_scoreboard [scoreboard] 5 Packets recieved
+# UVM_INFO scoreboard.sv(68) @ 505: uvm_test_top.adder_env.adder_scoreboard [scoreboard] 5 Packets matched correctly
+# UVM_INFO scoreboard.sv(69) @ 505: uvm_test_top.adder_env.adder_scoreboard [scoreboard] 0 Packets matched incorrectly
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   16
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [Scoreboard]    10
+# [TEST_DONE]     1
+# [monitor]     1
+# [scoreboard]     3
+# ** Note: $finish    : C:/questasim_10.1d/verilog_src/uvm-1.1c/src/base/uvm_root.svh(427)
+#    Time: 505 ns  Iteration: 63  Instance: /top
+# vsim +define+UVM_NO_DPI +packets=100 -do {run 100} -l adder.log -c work.top 
+# //  Questa Sim
+# //  Version 10.1d win32 Nov  1 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.uvm_pkg(fast)
+# Loading work.adder_pkg(fast)
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# 
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# 
+# different random seeds from your non-debug simulations.
+# 
+# Loading work.top(fast)
+# Loading work.dut_intf(fast)
+# Loading work.dut(fast)
+# run 100 
+# ----------------------------------------------------------------
+# UVM-1.1c
+# (C) 2007-2012 Mentor Graphics Corporation
+# (C) 2007-2012 Cadence Design Systems, Inc.
+# (C) 2006-2012 Synopsys, Inc.
+# (C) 2011-2012 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO @ 0: reporter [RNTST] Running test test...
+# UVM_INFO C:/questasim_10.1d/verilog_src/uvm-1.1c/src/base/uvm_objection.svh(1121) @ 505: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO monitor.sv(49) @ 505: uvm_test_top.adder_env.adder_agent.adder_monitor [monitor] 5 Packets recieved
+# UVM_INFO scoreboard.sv(67) @ 505: uvm_test_top.adder_env.adder_scoreboard [scoreboard] 5 Packets recieved
+# UVM_INFO scoreboard.sv(68) @ 505: uvm_test_top.adder_env.adder_scoreboard [scoreboard] 5 Packets matched correctly
+# UVM_INFO scoreboard.sv(69) @ 505: uvm_test_top.adder_env.adder_scoreboard [scoreboard] 0 Packets matched incorrectly
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    6
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [TEST_DONE]     1
+# [monitor]     1
+# [scoreboard]     3
+# ** Note: $finish    : C:/questasim_10.1d/verilog_src/uvm-1.1c/src/base/uvm_root.svh(427)
+#    Time: 505 ns  Iteration: 63  Instance: /top
