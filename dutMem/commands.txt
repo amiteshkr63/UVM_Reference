@@ -1,0 +1,8 @@
+dutMem
+======
+
+$UVM_HOME='C:/questasim64_10.7c/verilog_src/uvm-1.1d/src'
+
+vlog -work work +acc +incdir+$UVM_HOME +define+UVM_NO_DPI ./dutMem_interface.sv ./dutMem.sv ./dutMem_tb_top.sv
+
+vsim -c -l ./log.txt -suppress ALL -novopt +define+UVM_NO_DPI +UVM_CONFIG_DB_TRACE work.dutMem_tb_top -do "add wave dutMem_tb_top/*;run 100"
