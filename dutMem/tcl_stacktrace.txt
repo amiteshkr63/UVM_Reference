@@ -1,7 +1,0 @@
-Sat Aug 20 11:38:23 India Standard Time 2022
-Trace back: wrong # args: should be "mti_popupinternal menu w"
-    while executing
-"mti_popupinternal .main_pane.structure.interior.cs.body.struct.qstructurepopup_popup "
-    ("after" script)
-  <2: ::tkerror {wrong # args: should be "mti_popupinternal menu w"}
-  <1: ::bgerror {wrong # args: should be "mti_popupinternal menu w"}

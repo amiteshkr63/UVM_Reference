@@ -1,6 +1,0 @@
-# vsim +define+UVM_NO_DPI -do {run -all} -l dut98_log.txt -c dutMem_tb_top 
-# ** Note: (vsim-3812) Design is being optimized...
-# 
-# ** Error: Failed to find design unit work.dutMem_tb_top.
-# Optimization failed
-# Error loading design
